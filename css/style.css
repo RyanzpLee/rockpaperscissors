@@ -27,9 +27,6 @@ h1 {
     text-align: center;
 }
 
-#roundNumber {
-
-}
 
 .result {
     margin-top: 30px;
@@ -44,16 +41,44 @@ h1 {
 }
 
 .wrapper {
-    width: 30%;
+    width: 100%;
     height: 20%;
     margin: 0 auto;
     padding: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-img {
-    padding-left: 10px;
-    width: 100%;
+button {
+  margin: 0 12px 0 12px;
+  padding: 6px 12px;
+  font-size: 32px;
+  border-radius: 10px;
+  background-color: #00bbff;
+  color: white;
+  border: none;
+  box-shadow: 0 5px #999;
+}
+
+button:hover {
+  background-color: #007dab;
+}
+
+button:active {
+  background-color: #007dab;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+#play-again {
+    display: none;
+}
+
+#information {
+    text-align: center;
+    justify-content: center;
 }
