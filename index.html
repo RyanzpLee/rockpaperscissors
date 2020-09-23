@@ -6,11 +6,32 @@
     <meta name="author" content="Ryan Lee" />
     <meta name="description" content="Rock paper scissors game" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>RockPaperScissors</title>
   </head>
   <body>
-    <h1>Hello </h1>
-    <button class="gameBtn">Do you want to play a game?</button>
-    <script src="js/scripts.js"></script>
+    <h1 class="title">Rock Paper Scissors</h1>
+
+    <div class="score">
+      <h2 id="roundNumber">Round 0</h2>
+      <h3 id="roundTotal">0 - 0</h3>
+    </div>
+
+    <div class="result"></div>
+
+    <div class="button_container">
+      <div class="wrapper">
+        <button class="rock btn">Rock</button>
+        <button class="paper btn">Paper</button>
+        <button class="scissors btn">Scissors</button>
+        <!-- <img class="rock" src="images/rock.png" alt="rock image" />
+        <img class="paper" src="images/paper.png" alt="paper sheet image" />
+        <img class="scissors" src="images/scissors.png" alt="scissors image" /> -->
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
